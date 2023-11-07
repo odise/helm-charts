@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  flux2-sync:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Update]: Update chart README related to underlying App Version update to upstream 0.31.1"
+    apiVersion: v2
+    created: "2023-11-07T14:30:54.194217+01:00"
+    description: A Helm chart for flux2 GitRepository to sync with
+    digest: c6b0d55bef6961dc1222e7b85e24f4cee986e23d2f29ee320806f9b86c2a6f80
+    name: flux2-sync
+    sources:
+    - https://github.com/fluxcd-community/helm-charts
+    type: application
+    urls:
+    - https://odise.github.io/helm-charts/flux2-sync-1.0.1.tgz
+    version: 1.0.1
+generated: "2023-11-07T14:30:54.192098+01:00"
